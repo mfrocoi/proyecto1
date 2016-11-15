@@ -1,8 +1,20 @@
-import random
-Def GeneraListaAleatoria(n):
-  lista=[0]*6
-  for i in range (6):
-    lista [i]=random.randint(1,36)
-  return lista
+#Maria Fernanda Roco
 
-print GeneraListaAleatoria ()
+import random
+def genera ():
+  L=range (1,42)
+  Mi_lista = []
+  while len (Mi_lista)<6:
+    numero=random.choice (L)
+  If not (numero) in Mi_lista:
+    Mi_lista.append (numero)
+  return Mi_lista
+
+#Camila Tapia
+Def compruebe (x,l):
+  if x in l:
+    return false
+  else:
+    return true
+
+
